@@ -33,7 +33,6 @@ public class DragDropDemo extends Base {
 		//t.longPress(longPressOptions().withElement(element(first)).withDuration(ofSeconds(2))).moveTo(element(last)).release().perform();
 		t.longPress(element(first)).moveTo(element(last)).release().perform();
 
-
 	}
 
 }

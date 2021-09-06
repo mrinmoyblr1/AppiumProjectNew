@@ -29,5 +29,7 @@ public class Gestures extends Base {
 		String str = driver.findElement(MobileBy.AndroidUIAutomator("text(\"Sample menu\")")).getText();
 		System.out.println(str);
 		System.out.println(driver.findElementById("android:id/title").isDisplayed());
+		
+		
 	}
 }

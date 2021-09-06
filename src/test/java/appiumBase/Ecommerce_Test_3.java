@@ -26,12 +26,7 @@ public class Ecommerce_Test_3 extends HybridBase{
 		driver.findElement(MobileBy.AndroidUIAutomator("text(\"India\")")).click();
 		driver.findElement(By.id("com.androidsample.generalstore:id/btnLetsShop")).click();
 
-		
-		
-		
-		
-		
-		
+
 		
 	}
 
